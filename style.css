@@ -1,0 +1,124 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #efefef;
+    color: #4f4f51;
+    padding: 50px 15%;
+}
+
+#information {
+    border: 1.7px solid #bdbdbd;
+    padding: 15px;
+    border-radius: 100px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+}
+
+#info-content {
+    border: 2px solid white;
+    padding: 13px 30px;
+    border-radius: 100px;
+    background: linear-gradient(90deg, white, #eaeaea);
+    box-shadow: 0px 0px 10px #bfbfbf, 0px 5px 10px #bfbfbf;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+#info-content-head {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#info-col-1 {
+    color: hsl(179, 100%, 38%);
+    font-size: 15pt;
+}
+
+#info-col-2 {
+    color: #ff7200;
+    font-size: 14pt;
+    text-align: right;
+}
+
+#info-content-sub-head {
+    color: hsl(0, 0%, 55%);
+    font-size: 10pt;
+}
+
+.form-control {
+    width: 100%;
+    color: #4f4f51;
+    font-weight: 600;
+    font-size: 12pt;
+}
+
+input {
+    padding: 12px 12px 12px 15px;
+    box-sizing: border-box;
+}
+
+select {
+    padding: 5px 5px 5px 15px;
+}
+
+#date-of-birth {
+    text-transform: uppercase;
+}
+
+.fa-question-circle-o {
+    color: #06c8c5;
+}
+
+label {
+    font-size: 12pt;
+}
+
+.form-group {
+    display: grid;
+    grid-template-columns: auto 50px;
+    grid-template-areas: 
+    "content tick";
+    margin-bottom: 6%;
+}
+
+.content {
+    grid-area: content;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.content-head {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.message {
+    text-align: right;
+    font-size: 12pt;
+    color: #8a8a8a;
+}
+
+.message-name {
+    text-align: right;
+    margin-right: 20px;
+    font-size: 15pt;
+    color: #8a8a8a;
+}
+
+.tick {
+    color: hsl(0, 0%, 78%);
+    grid-area: "tick";
+    align-self: end;
+    font-size: 22pt;
+    padding-left: 15px;
+}
+
+#tick-name {
+    padding-bottom: 20px;
+}
+
+.name {
+    border-bottom: 1px solid hsl(0, 0%, 74%);
+    padding-bottom: 10px;
+}

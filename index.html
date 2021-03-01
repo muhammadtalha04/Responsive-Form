@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+
+    <body>
+        <div id="information">
+            <div id="info-content">
+                <div id="info-content-head">
+                    <div id="info-col-1">
+                        YOUR INFORMATION
+                    </div>
+                    <div id="info-col-2">
+                        <em><strong>Incomplete</strong></em>
+                    </div>
+                </div>
+                
+                <div id="info-content-sub-head">
+                    <em>16 fields remaining - estimated section time: 8 minutes</em>
+                </div>
+            </div>
+        </div>
+
+        <form>
+            <div class="form-group">
+                <div class="content">
+                    <div class="content-head name">
+                        <span><strong>Name</strong> <i class="fa fa-question-circle-o"></i></span>
+                        <strong class="message"><em>A. Figliolia 1/12/2021 21:04</em></strong>
+                    </div>
+
+                    <div class="content-head name">
+                        <em><strong>Figliolia, Alex</strong></em>
+
+                        <span class="message-name"><i class="fa fa-search"></i></span>
+                    </div>
+                </div>
+
+                <div class="tick" id="tick-name">
+                    <i class="fa fa-check-square"></i>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="content">
+                    <div class="content-head">
+                        <label for="date-of-birth"><strong>Date of Birth</strong> <i class="fa fa-question-circle-o"></i></label>
+                    </div>
+                    <div class="content-body">
+                        <input type="date" id="date-of-birth" class="form-control" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="content">
+                    <div class="content-head">
+                        <label for="where-do-you-work"><strong>Where do you work?</strong> <i class="fa fa-question-circle-o"></i></label>
+                        <strong class="message"><em>A. Brody 1/12/2021 21:04</em></strong>
+                    </div>
+                    <div class="content-body">
+                        <select id="where-do-you-work" class="form-control">
+                            <option value="allied-health" selected>Allied Health</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="tick">
+                    <i class="fa fa-check-square"></i>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="content">
+                    <div class="content-head">
+                        <label for="favourite-food"><strong>Favourite Food</strong> <i class="fa fa-question-circle-o"></i></label>
+                        <strong class="message"><em>A. Figliolia 1/12/2021 21:04</em></strong>
+                    </div>
+                    <div class="content-body">
+                        <select id="favourite-food" class="form-control">
+                            <option value="pizza" selected>Pizza</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="tick">
+                    <i class="fa fa-check-square"></i>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="content">
+                    <div class="content-head">
+                        <label for="favourite-sport"><strong>Favourite Sport</strong> <i class="fa fa-question-circle-o"></i></label>
+                        <strong class="message"><em>A. Figliolia 1/12/2021 21:04</em></strong>
+                    </div>
+                    <div class="content-body">
+                        <select id="favourite-sport" class="form-control">
+                            <option value="football" selected>Football</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="tick">
+                    <i class="fa fa-check-square"></i>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="content">
+                    <div class="content-head">
+                        <label for="favourite-tv-show"><strong>Favourite TV Show</strong> <i class="fa fa-question-circle-o"></i></label>
+                        <strong class="message"><em>J. Matheson 1/12/2021 21:04</em></strong>
+                    </div>
+                    <div class="content-body">
+                        <select id="favourite-tv-show" class="form-control">
+                            <option value="mr-robot" selected>Mr. Robot</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="tick">
+                    <i class="fa fa-check-square"></i>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
